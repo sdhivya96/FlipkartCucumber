@@ -6,4 +6,5 @@ Scenario: Sorting functionalities of flipkart
 Given User launches chrome and navigates to flipkart
 When  User enters "iphone" and clicks search 
 When  user clicks price-low to high
-Then user compares the sorting result with the last mobile
+And User compares
+Then user compares the sorting result with the last mobile price 
